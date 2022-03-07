@@ -1,1 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fondo1{
+    background-image: url('../img/pastel.jpg');
+}
+.logo1{
+    position: relative;
+    top: -25px;
+    width: 100%;
+    height: 200px;
+    background-image: url('../img/logo.png');
+    background-size: 200px 200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+}
+.banner{   
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(237,162,195);
+    background: linear-gradient(257deg, rgba(237,162,195,1) 0%, rgba(200,201,203,1) 50%, rgba(237,162,195,1) 100%);
+    height: 80px;
+    top: 10px;
+}
+.dialogo{
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.322);
+    top: 275px;
+    left: 120px;
+}
+.slogan{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bolder;
+    font-size: 75px;
+    text-align: center;
+    left: 50px;
+}
+span{
+    position: absolute;
+    top: 220px;
+    left: 23px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.pedir{
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    background-color: #f0caca; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: 1s;
+    font-weight: bold;
+}
+.pedir:hover {
+    background-color: black;
+    color: white;
+}
 
+/* --------------------------------------------------------------------------------------------------------------- */
+
+body{
+    background-image: url('../img/fondo.jpg');
+}
+.logo2{
+    position: absolute;
+    background-image: url(../img/logo.png);
+    width: 200px;
+    height: 200px;
+}
+.ct{
+    width: 800px;
+    height: 200px;
+}
+.texto1{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(250, 224, 242);
+}
+.texto2{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    top: 120px;
+    left: 260px;
+    font-size: 18px;
+    color: rgb(250, 224, 242);
+}
+.hea{
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.cajaf{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    top: 220px;
+    left: 38%;
+    border-radius: 20px;
+    border: rgba(0, 0, 0, 0.288) 10px solid;
+}
+.dc{
+    position: absolute;
+    left:50px;
+    top: 18px;
+    font-family: 'Lato', sans-serif;;
+    font-size: 25px;
+}
+.titulotam{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.nombre{
+    position: absolute;
+    left:5px;
+    top: 80px;
+}
+.estilobarra{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+.inputnombre{
+    position: absolute;
+    top: 100px;
+}
+.telefono{
+    position: absolute;
+    left:5px;
+    top: 140px;
+}
+.inputtel{
+    position: absolute;
+    top: 160px;
+}
+.correo{
+    position: absolute;
+    left:5px;
+    top: 200px;
+}
+.inputcor{
+    position: absolute;
+    top: 220px;
+}
+
+.img1{
+    position: absolute;
+    top: 200px;
+    width: 510px;
+    height: 510px;
+    background-image: url('../img/imgpastel.png');
+    transform: scaleX(-1);
+}
+.img2{
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    width: 512px;
+    height: 512px;
+    background-image: url('../img/imgpastel.png');
+}
+.armar{
+    position: absolute;
+    top: 300px;
+    left: 25%;
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.flecha{
+    position: absolute;
+    top: 340px;
+    left: 125px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/down-arrow.png');
+}
+.sabores{
+    position: absolute;
+    top: 650px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(64, 5, 55, 0.555);
+    color: white;
+    border-radius: 30px;
+}
+.tipoletra{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+.mark{
+    width: 1.4em;
+    height: 1.4em;
+}
+.sabtxt{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.chocpos{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+.txtchocpos{
+    position: absolute;
+    top: 77px;
+    left: 225px;
+}
+.vanpos{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.txtvanpos{
+    position: absolute;
+    top: 77px;
+    left: 425px;
+}
+.limpos{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+.txtlimpos{
+    position: absolute;
+    top: 77px;
+    left: 625px;
+}
+.redpos{
+    position: absolute;
+    top: 80px;
+    left: 800px;
+}
+.txtredpos{
+    position: absolute;
+    top: 77px;
+    left: 825px;
+}
+.cafepos{
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+}
+.txtcafepos{
+    position: absolute;
+    top: 77px;
+    left: 1025px;
+}
+.florpos{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+.txtflorpos{
+    position: absolute;
+    top: 217px;
+    left: 225px;
+}
+.drippos{
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+.txtdrippos{
+    position: absolute;
+    top: 217px;
+    left: 425px;
+}
+.frutpos{
+    position: absolute;
+    top: 220px;
+    left: 600px;
+}
+.txtfrutpos{
+    position: absolute;
+    top: 217px;
+    left: 625px;
+}
+.confpos{
+    position: absolute;
+    top: 220px;
+    left: 800px;
+}
+.txtconfpos{
+    position: absolute;
+    top: 217px;
+    left: 825px;
+}
+.fonpos{
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+}
+.txtfonpos{
+    position: absolute;
+    top: 217px;
+    left: 1025px;
+}
+.caja {
+   margin:20px auto 40px auto;	
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 240px;
+   position:relative;
+   
+}
+select {
+   background: white;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 250px;
+   color: rgb(0, 0, 0);
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+.texto3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.medida{
+    position: relative;
+    background: transparent;
+    width: 400px;
+    height: 100px;
+    color: white;
+    left: 480px;
+}
+.botones{
+    width: 100hw;
+    height: 50px;
+}
+.reset{
+    position: absolute;
+    top: 700px;
+    left: 480px;
+    background-color: #f0caca; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: 1s;
+    font-weight: bold;
+}
+.reset:hover {
+    background-color: black;
+    color: white;
+}
+.send{
+    position: absolute;
+    top: 700px;
+    right: 480px;
+    background-color: #f0caca; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: 1s;
+    font-weight: bold;
+}
+.send:hover {
+    background-color: black;
+    color: white;
+}
+.datos{
+    position: absolute;
+    top: 1450px;
+    background: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
