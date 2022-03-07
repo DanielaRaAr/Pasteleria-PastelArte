@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Sansita+Swashed:wght@500&family=Smooch+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <title>PastelArte</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="img/cake.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="hea">
+        <a href="./principal.html">
+            <div class="logo2"></div>
+        </a>
+        <div class="ct">
+            <h1 class="texto1">BIENVENIDO</h1>
+            <p class="texto2">En el siguiente formulario tomaremos sus datos así como los ingredientes que desee
+                para realizar su pastel ideal.
+            </p>
+        </div>
+    </header>
+    <section>
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="cajaf">
+            <h3 class="dc">Datos de Contacto</h3>
+            <label class="titulotam nombre" for="Input1">Nombre</label><br>
+            <input class="estilobarra inputnombre" type="text">
+            <label class="titulotam telefono" for="tel">Teléfono</label><br>
+            <input class="estilobarra inputtel" type="tel" name="tel" id="tel" maxlength="10"><br><br>
+            <label class="titulotam correo" for="correo1">Correo Electrónico</label><br>
+            <input class="estilobarra inputcor" type="email" name="correo1" id="correo1"> <br><br>
+            <h3 class="armar">Arma tu Pastel</h3>
+            <div class="flecha"></div>
+        </div>
+        <div class="sabores">
+            <h3 class="tipoletra sabor">Sabores de Bizcocho</h3><br><br><br><br>
+            <div class="sabores2">
+                <input class="mark chocpos" type="checkbox" name="sabor1" id="sabor1" value="choco">
+                <label class="sabtxt txtchocpos" for="sabor1">Chocolate</label>
+                <input class="mark vanpos" type="checkbox" name="sabor2" id="sabor2" value="vain">
+                <label class="sabtxt txtvanpos" for="sabor2">Vainilla</label>
+                <input class="mark limpos" type="checkbox" name="sabor3" id="sabor3" value="limon">
+                <label class="sabtxt txtlimpos" for="sabor3">Limón</label>
+                <input class="mark redpos" type="checkbox" name="sabor4" id="sabor4" value="red">
+                <label class="sabtxt txtredpos" for="sabor4">Red Velvet</label>
+                <input class="mark cafepos" type="checkbox" name="sabor5" id="sabor5" value="cafe">
+                <label class="sabtxt txtcafepos" for="sabor5">Café</label>
+            </div>
+            <h3 class="tipoletra sabor">Decoración</h3><br><br><br><br>
+            <input class="mark florpos" type="checkbox" name="adorno1" id="adorno1" value="flor">
+            <label class="sabtxt txtflorpos" for="adorno1">Flores de Betún</label>
+            <input class="mark drippos" type="checkbox" name="adorno2" id="adorno2" value="drip">
+            <label class="sabtxt txtdrippos" for="adorno2">Drip Cakes</label>
+            <input class="mark frutpos" type="checkbox" name="adorno3" id="adorno3" value="fruta">
+            <label class="sabtxt txtfrutpos" for="adorno3">Fruta</label>
+            <input class="mark confpos" type="checkbox" name="adorno4" id="adorno4" value="conf">
+            <label class="sabtxt txtconfpos" for="adorno4">Confitería</label>
+            <input class="mark fonpos" type="checkbox" name="adorno5" id="adorno5" value="fond">
+            <label class="sabtxt txtfonpos" for="adorno5">Fondant</label>
+
+            <h3 class="tipoletra sabor">Tamaño de Pastel</h3>
+            <div class="caja">
+                <select name="select">
+                    <option value="cero">ELIGE TAMAÑO</option>
+                    <option value="uno">$50.00........6-8 personas (15 cm de diámetro) </option>
+                    <option value="dos">$150.00.....12-15 personas (20 cm de diámetro) </option>
+                    <option value="tres">$310.00.....20-25 personas (25 cm de diámetro) </option>
+                    <option value="cuatro">$480.00.....35-40 personas (30 cm de diámetro) </option>
+                    <option value="cinco">$600.00.....45-50 personas (35 cm de diámetro) </option>
+                </select>
+            </div>
+            <h3 class="tipoletra sabor">Descripción General</h3>
+            <p class="texto3">Agrega un mensaje personal para tu pastel.
+                Si requiere alguna especificación más detallada para la
+                elaboración de su pastel escriba en el cuadro de abajo.</p><br><br>
+            <div class="posicioncaja">
+                <input class="medida" type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="botones">
+                <input class="reset" type="reset" value="Restablecer">
+                <input class="send" type="submit" value="Enviar"> <br>
+            </div>
+        </div>
+        
+    </section>
+    <div class="datos">
+        <br>
+        <h3>Avenida Central, S/N Col. Gran Delicia</h3>
+        <h4>Horario de Atención: 9:00 am - 11:00 pm</h4>
+    </div>
+
+</body>
+
+</html>
